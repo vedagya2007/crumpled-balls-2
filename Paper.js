@@ -8,7 +8,7 @@ class Paper{
             
         }
         this.body = Bodies.circle(250,540,20,options);
-        this.width =33;
+        this.width =33;thi
         this.image = loadImage("Images/paper.png");
         World.add(world, this.body);
     }
